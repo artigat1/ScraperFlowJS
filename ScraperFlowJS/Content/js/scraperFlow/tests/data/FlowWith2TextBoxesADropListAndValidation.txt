@@ -1,0 +1,60 @@
+﻿{
+	"Name": "rvcbvdzhdobratmlvkn",
+	"Type": "User",
+	"Form": {
+		"ActionName": "Test",
+		"Elements": [
+			{
+				"Name": "Name",
+				"Label": "Your Name",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Text",
+				"Validation": [{
+					"Type": "Required",
+					"ErrorMessage": "Oi, this is required"
+				}]
+			},
+			{
+				"Name": "Test2",
+				"Label": "Which one?",
+				"Value": "3",
+				"Values": [
+					{
+						"Key": "1",
+						"Value": "Option 1"
+					},
+					{
+						"Key": "2",
+						"Value": "Option 2"
+					},
+					{
+						"Key": "3",
+						"Value": "Option 3"
+					},
+					{
+						"Key": "4",
+						"Value": "Option 4"
+					}
+				],
+				"Error": "",
+				"Type": "DropList",
+				"Validation": []
+			},
+			{
+				"Name": "Email",
+				"Label": "Your email address",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Email",
+				"Validation": [{
+					"Type": "Required",
+					"ErrorMessage": "What&quot;s your email address?"
+				}]
+			}
+		]
+	},
+	"SessionId": "c06937b1a73d4d3b9592e056afb87d4e"
+}

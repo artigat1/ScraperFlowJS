@@ -1,0 +1,21 @@
+﻿<div>
+    <label for="<%= Name %>"><%= Label %></label>
+    <select name="<%= Name %>" id="<%= Name %>">
+        <% _.each( Values, function(item){ %>
+                <% if(Value == item.Key) { %> 
+                    <option value="<%= item.Key %>" selected="selected">
+                <% } else { %>
+                    <option value="<%= item.Key %>">
+                <%} %>
+                <%= item.Value %>
+            </option>
+        <%}); %>
+    </select>
+
+    <% if ( Error != null && Error != '') { %>
+        <span class="error-message"><%= Error %></span>
+    <% } %>
+    <% if(Validation.length > 0){ %>
+        <span class="validation-error"><%= Validation.ErrorMessage %></span>
+    <% } %>
+</div>

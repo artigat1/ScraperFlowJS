@@ -1,0 +1,34 @@
+﻿{
+	"Name": "Three Text Box Form",
+	"Type": 0,
+	"Form": {
+		"ActionName": "Test",
+		"Elements": [
+			{
+				"Name": "Test1",
+				"Label": "Test 1",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Text"
+			},
+			{
+				"Name": "Test2",
+				"Label": "Test 2",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Text"
+			},
+			{
+				"Name": "Test3",
+				"Label": "Test 3",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Text"
+			}
+		]
+	},
+	"SessionId": "c06937b1a73d4d3b9592e056afb87d4e"
+}

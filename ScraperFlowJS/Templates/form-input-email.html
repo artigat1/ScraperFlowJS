@@ -1,0 +1,11 @@
+﻿<div>
+    <label for="<%= Name %>"><%= Label %></label>
+    <input type="email" name="<%= Name %>" id="<%= Name %>" value="<%= Value %>"/>
+
+    <% if ( Error != null && Error != '') { %>
+        <span class="error-message"><%= Error %></span>
+    <% } %>
+    <% if(Validation.length > 0){ %>
+        <span class="validation-error"><%= Validation.ErrorMessage %></span>
+    <% } %>
+</div>

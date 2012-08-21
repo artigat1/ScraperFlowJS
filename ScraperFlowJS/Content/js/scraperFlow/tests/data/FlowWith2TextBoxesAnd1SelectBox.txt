@@ -1,0 +1,51 @@
+﻿{
+	"Name": "rvcbvdzhdobratmlvkn",
+	"Type": 0,
+	"Form": {
+		"ActionName": "Test",
+		"Elements": [
+			{
+				"Name": ""Name"",
+				"Label": "Your "Name"",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Text"
+			},
+			{
+				"Name": "Test2",
+				"Label": "Test 2",
+				"Value": "2",
+				"Values": [
+					{
+						"Key": "1",
+						"Value": "Option 1"
+					},
+					{
+						"Key": "2",
+						"Value": "Option 3"
+					},
+					{
+						"Key": "3",
+						"Value": "Option 3"
+					},
+					{
+						"Key": "4",
+						"Value": "Option 4"
+					}
+				],
+				"Error": "",
+				"Type": "DropList"
+			},
+			{
+				"Name": "Email",
+				"Label": "Your email address",
+				"Value": "",
+				"Values": [],
+				"Error": "",
+				"Type": "Email"
+			}
+		]
+	},
+	"SessionId": "c06937b1a73d4d3b9592e056afb87d4e"
+}

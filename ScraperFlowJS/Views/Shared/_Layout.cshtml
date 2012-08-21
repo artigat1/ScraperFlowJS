@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+
+    <link href="http://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/Site.css")" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://mobnkqa.blob.core.windows.net/moshop-themes/f057f391-a1c1-4ae8-ba52-27e7a9464b0e/Theme.css" />
+
+    <script href="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script href="http://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js" type="text/javascript"></script>
+    
+    <link rel="icon" href="//admin.mobankdev.com/images/f040e427-1efd-4a6b-91fb-cf2c207e0775/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="//admin.mobankdev.com/images/f040e427-1efd-4a6b-91fb-cf2c207e0775/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <section data-role="page">
+        <header data-role="header">
+            <h1>Scraper Flow</h1>
+        </header>
+
+        <div class="mainContent" data-role="content">
+            @RenderBody()
+        </div>
+        
+        <footer data-role="footer"></footer>
+    </section>
+</body>
+</html>
